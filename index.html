@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="registration">RESGISTRATION FORM</h2>
+    <p class="head" style="color: white; ">Online Registration</p>
+    <!-- <p id="error"></p> -->
+<form name="submit">
+        <h4>Personal Information</h4>
+        <b class="form_name">First Name:</b>
+        <input type="text" id="fname" name="fname">
+        <p id="namea"></p>
+        <b class="form_name1">Last Name:</b>
+        <input type="text" id="lname" name="lname" ><br>
+        <p id="nameb"></p>
+        <b class="form_name3">Email Address:</b>
+        <input type="email" id="email"><br>
+        <p id="namec"></p>
+        <b class="form_name4">Phone Number:</b>
+        <input type="tel" id="number">
+        <p id="named"></p>
+        <b class="form_name5">Age:</b>
+        <input type="number" id="age"><br>
+        <p id="namee"></p>
+        <b class="form_name6">Address:</b>
+        <input type="text" id="address"><br>
+        <p id="namef"></p>
+        <input type="submit">
+</form>
+<div class="container-fluid one">
+    <div class="row">
+        <div class="col-md-4 m-auto ">
+            <div class="card">
+                <img class="rounded-circle" src="img_avatar1.png" alt="Card image" style="width: 50%; margin: auto;">
+                <div class="card-body">
+                    <a href="#" class="btn btn-success">Profile</a>
+                  <h4 class="card-title"></h4>
+                  <p class="card-text"> 
+                   <b>Name:</b> <span class="input" id="formvalue1"></span><br>
+                    <b>E-mail:</b><span class="input" id="formvalue2"></span><br>
+                    <b>Number:</b> <span class="input" id="formvalue3"></span><br>
+                   <b>Age:</b><span class="input" id="formvalue4"></span><br>
+                    <b>Address:</b><span class="input" id="formvalue5"></span><br>
+                </p>
+                </div>
+              </div>
+        </div>
+
+
+<script src="script.js"></script>
+    <script src="JS/jquery.js"></script>
+        <script src="JS/bootstrap.min.js"></script>
+        <script src="JS/popper.js"></script>
+</body>
+</html>
