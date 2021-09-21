@@ -138,4 +138,7 @@ input[type=submit]:hover{
         padding: 5px; 
          
     }
+    .input{
+        width: auto;
+    }
 }
